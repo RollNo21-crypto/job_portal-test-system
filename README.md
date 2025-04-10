@@ -1,12 +1,50 @@
-# React + Vite
+# Job Portal + Test System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built with React and Vite that combines a job portal with an integrated test system. This platform enables efficient job posting, searching, and candidate assessment.
 
-Currently, two official plugins are available:
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 Secure authentication with Clerk
+- 💼 Job posting and management
+- 🔍 Advanced job search and filtering
+- 📝 Integrated test system for candidate assessment
+- 💾 Persistent data storage with Supabase
+- 🎨 Modern UI with shadcn/ui and Tailwind CSS
 
-## Expanding the ESLint configuration
+## 🚀 Quick Start
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up environment variables:
+   - Create a `.env` file in the root directory
+   - Add your Clerk publishable key:
+     ```env
+     VITE_CLERK_PUBLISHABLE_KEY=your_publishable_key
+     ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 🛠️ Tech Stack
+
+- **React** (v19.0.0) - Frontend library
+- **Vite** - Build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - UI component library
+- **Clerk** - Authentication and user management
+- **Supabase** - Backend and database services
+
+## 📚 Documentation
+
+For detailed setup instructions, project structure, and development guidelines, please refer to our [DOCUMENTATION.md](./DOCUMENTATION.md).
+
+## 🔗 Resources
+
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://reactjs.org/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/)
+- [shadcn/ui Documentation](https://ui.shadcn.com/)
