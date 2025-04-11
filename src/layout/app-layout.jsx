@@ -10,14 +10,14 @@ const AppLayout = () => {
           <Header /> 
           <Outlet />
       </main>
-      <div className="bg-gradient-to-b from-gray-900 to-gray-800">
-        <div className="container">
+      <div className="w-full bg-gradient-to-b from-gray-950 to-gray-900">
+        <div className="container mx-auto">
           <div className="py-10 text-center mt-10">
             <p className="text-white">
               © 2025 Posspole . All rights reserved.
             </p>
           </div>
-        </div >
+        </div>
       </div>
     </div>
   )
